@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ToDoList_backend
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/todolist
+
+server:
+  port: 8080
